@@ -99,7 +99,7 @@ const App = () => {
         /^[+]?[0-9]{1,4}[.\-\s]?(\(?\d{1,3}\)?[\.\-\s]?)?[\d\.\-\s]{5,20}$/,
         "Invalid phone number"
       )
-      .required("Phone is required"),
+      .required("Phone Number is required"),
 
     address: Yup.string()
       .max(250, "Max 250 characters")
